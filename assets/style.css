@@ -1,0 +1,136 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+/* Main Div with my name after the initial animation ends */
+.name-Container {
+    background: black;
+    width:100%; 
+    height: 100vh;
+}
+/* My name: Joseph Badua */
+.myName {
+    color:white;
+    font-size: 10rem;
+    margin-left: 20rem;
+    padding-top:15rem;
+}
+/* Name decoration div */
+.name-decorTop1 {
+    position: absolute;
+    top:25%;
+    left: 14%;
+    width: 0.5%;
+    height: 20vh;
+    background:white;
+}
+.name-decorTop2 {
+    position: absolute;
+    top:25%;
+    left: 15%;
+    width: 15%;
+    height: 1vh;
+    background:white;
+}
+.name-decorBottom1 {
+    position: absolute;
+    top:55%;
+    left: 68%;
+    width: 0.5%;
+    height: 15vh;
+    background:black;
+    z-index: 3;
+}
+.name-decorBottom2 {
+    position: absolute;
+    top:71%;
+    left: 52.5%;
+    width: 15%;
+    height: 1vh;
+    background:black;
+    z-index: 3;
+}
+
+/* Title: Full-Stack Developer */
+.title {
+    color:white;
+    font-size: 6.5rem;
+    margin-left: 20rem;
+    padding-top:4rem;
+}
+/* Aesthetic bottom div */
+.gray-bottom {
+    background: lightgray;
+    height:45vh;
+    width: 100%;
+    z-index: 1;
+    position: absolute;
+    top: 31.2rem;
+    opacity: 0.6;
+}
+/* Aesthetic right div */
+.red-right {
+    height: 100vh;
+    width:20%;
+    position: absolute;
+    right:0;
+    top: 0;
+    background:red;
+    z-index: 2;
+}
+/* EVERYTHING BELOW NEEDED FOR INITIAL ANIMATION */
+.cover1 {
+    height: 100vh;
+    width:20%;
+    position: absolute;
+    left:0;
+    top: 0;
+    background:red;
+    opacity: 1;
+    z-index: 6;
+}
+.cover2 {
+    height: 100vh;
+    width:20%;
+    position: absolute;
+    left:20%;
+    top: 0;
+    background:white;
+    opacity: 1;
+    z-index: 5;
+}
+.cover3 {
+    height: 100vh;
+    width:20%;
+    position: absolute;
+    left:40%;
+    top: 0;
+    background:red;
+    opacity: 1;
+    z-index: 4;
+}
+.cover4 {
+    height: 100vh;
+    width:20%;
+    position: absolute;
+    left:60%;
+    top: 0;
+    background:white;
+    opacity: 1;
+    z-index: 3;
+}
+/* EVERYTHING ABOVE NEEDED FOR INITIAL ANIMATION */
+/* 
+    <div class="cover1">
+        <!--nothing-->
+    </div>
+    <div class="cover2">
+        <!--nothing-->
+    </div>
+    <div class="cover3">
+        <!--nothing-->
+    </div>
+    <div class="cover4">
+        <!--nothing-->
+    </div> 
+/*
