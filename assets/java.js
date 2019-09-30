@@ -1,6 +1,9 @@
 let counter = 0;
 
 $(document).ready(function() {
+    $(".work").hide();
+    $(".Joseph").hide();
+    $(".all1").hide();
     $(".section").hide();
     $(".all").hide();
     $(".picture").hide();
@@ -77,6 +80,12 @@ $(document).ready(function() {
                 $(".all").show();
                 $(".all").addClass("fades");
                 $(".borderRight").addClass("fades");
+                $(".Joseph").show();
+                $(".all1").show();
+                $(".work").show();
+                $(".Joseph").addClass("scale-in");
+                $(".all1").addClass("scale-in");
+                $(".work").addClass("scale-in");
             }  
             }, 50);
 });
