@@ -1,6 +1,10 @@
 let counter = 0;
 
 $(document).ready(function() {
+    $(".carousel").carousel({   
+        interval: 5000, 
+        pause: "hover"
+    });
     $(".new").hide();
     $(".nameTitle").hide();
         setInterval(function() {
@@ -35,5 +39,5 @@ $(document).ready(function() {
                 $(".nameTitle").addClass("fade");
                 $(".preload").hide();
             }   
-            }, );
+            }, 0);
 });
