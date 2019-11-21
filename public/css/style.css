@@ -53,6 +53,7 @@
  footer.page-footer {
    margin: 0;
  }
+ /*NAV and TITLE ----------------------------------------*/
  .headerMargin {
    margin-top: 160px;
  }
@@ -86,6 +87,25 @@
    background: white;
    width: 50%;
  }
+/*ABOUT ME -----------------------------------*/
+.AboutDivider {
+  height: 0.1vh;
+  width: 30%;
+  background: red;
+}
+.AboutDivider1 {
+  height: 0.1vh;
+  width: 50%;
+  background: red;
+}
+.AboutDivider2 {
+  height: 0.1vh;
+  width: 70%;
+  background: red;
+}
+.smallpadding {
+  padding-top: 1rem;
+}
  .mypicturediv {
    text-align: center;
  }
@@ -99,3 +119,28 @@
  .aboutmeHead {
    font-size: 3rem;
  }
+ /*MY WORK =------------------------------------*/
+ .workDivider {
+   height: 0.1vh;
+   width: 70%;
+   background: red;
+ }
+ .workDivider1 {
+  height: 0.1vh;
+  width: 50%;
+  background: red;
+}
+.workDivider2 {
+  height: 0.1vh;
+  width: 30%;
+  background: red;
+}
+.myWork {
+  font-size: 5rem;
+}
+.linkGit {
+  font-size: 2rem;
+}
+.cardHeadFont {
+  font-size: 2.5rem !important;
+}
