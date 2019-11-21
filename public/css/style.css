@@ -1,4 +1,5 @@
  body {
+   font-size: 16px;
   font-family: 'Baloo', cursive;
  }
  nav ul a,
@@ -53,7 +54,7 @@
    margin: 0;
  }
  .headerMargin {
-   margin-top: 300px;
+   margin-top: 160px;
  }
  .paddingHeader {
    padding: 10px;
@@ -64,4 +65,37 @@
    height: 100vh !important;
    object-fit: cover;
    z-index: -1;
+ }
+ .black a {
+   font-size: 24px;
+ }
+ .center-nav {
+   text-align: center;
+ }
+ .hello {
+   font-size: 6rem;
+   text-shadow: 3px 1px 1px white;
+ }
+ .description {
+   font-size: 3rem;
+   padding: 0px 200px !important;
+   text-shadow: 1px 1px 1px white;
+ }
+ #divider {
+   height: 0.1vh;
+   background: white;
+   width: 50%;
+ }
+ .mypicturediv {
+   text-align: center;
+ }
+ .mypicture {
+   height:30vh !important;
+   background: black !important;
+ }
+ .aboutme {
+   font-size: 2rem;
+ }
+ .aboutmeHead {
+   font-size: 3rem;
  }
