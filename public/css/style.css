@@ -170,7 +170,364 @@
 .videoContact {
   position: absolute;
   width: 100%;
-  height: 90vh !important;
+  height: 100vh !important;
   object-fit: cover;
   z-index: -1;
 }
+.descriptionContact {
+  font-size: 3rem;
+  padding: 0px 200px !important;
+  text-shadow: 1px 1px 1px black;
+}
+.helloContact {
+  font-size: 6rem;
+  text-shadow: 3px 1px 1px black;
+}
+.headerMarginContact {
+  margin-top: 160px;
+  margin-bottom: 100px;
+}
+/*LAPTOP SCREEN */
+@media only screen and (max-width: 1440px) {
+  /*CONTACT ME -------------------------------------------------*/
+  .videoContact {
+    position: absolute;
+    width: 100%;
+    height: 110vh !important;
+    object-fit: cover;
+    z-index: -1;
+  }
+  .descriptionContact {
+    font-size: 3.5rem;
+    padding: 0px !important;
+    text-shadow: 1px 1px 1px black;
+  }
+  .helloContact {
+    font-size: 4.5rem;
+    text-shadow: 3px 1px 1px black;
+  }
+  .imgHeight {
+    height: 30vh !important;
+  }
+  /*HEADER AND NAV ----------------------------------------*/
+  .headerMargin {
+    margin-top: 100px;
+  }
+}
+/*LAPTOP 1024 SCREEN */
+@media only screen and (max-width: 1024px) {
+  /*CONTACT ME -------------------------------------------------*/
+  .videoContact {
+    position: absolute;
+    width: 100%;
+    height: 130vh !important;
+    object-fit: cover;
+    z-index: -1;
+  }
+  .contactMe {
+    background: whitesmoke;
+    border: 1px solid white;
+    border-radius: 2rem;
+    padding: 0px 50px;
+  }
+  .descriptionContact {
+    font-size: 3.5rem;
+    padding: 0px !important;
+    text-shadow: 1px 1px 1px black;
+  }
+  .helloContact {
+    font-size: 4.5rem;
+    text-shadow: 3px 1px 1px black;
+  }
+  .cardHeadFont {
+    font-size: 3.5rem !important;
+    line-height: 3.5rem !important;
+  }
+  .imgHeight {
+    height: 25vh !important;
+  }
+  /*HEADER AND NAV ----------------------------------------*/
+  .headerMargin {
+    margin-top: 80px;
+  }
+  .description {
+    font-size: 3rem;
+    padding: 0px 50px !important;
+    text-shadow: 1px 1px 1px white;
+  }
+}
+/*HALF SECTION SCREEN */
+@media only screen and (max-width: 1000px) {
+  /*CONTACT ME -------------------------------------------------*/
+  .videoContact {
+    position: absolute;
+    width: 100%;
+    height: 100vh !important;
+    object-fit: cover;
+    z-index: -1;
+  }
+  .descriptionContact {
+    font-size: 3.5rem;
+    padding: 0px !important;
+    text-shadow: 1px 1px 1px black;
+  }
+  .helloContact {
+    font-size: 4.5rem;
+    text-shadow: 3px 1px 1px black;
+  }
+  .imgHeight {
+    height: 30vh !important;
+  }
+  /*HEADER AND NAV ----------------------------------------*/
+  .headerMargin {
+    margin-top: 100px;
+  }
+}
+/*TABLET SCREEN*/
+@media only screen and (max-width: 768px) {
+  /*CONTACT ME -------------------------------------------------*/
+  .videoContact {
+    position: absolute;
+    width: 100%;
+    height: 120vh !important;
+    object-fit: cover;
+    z-index: -1;
+  }
+  .descriptionContact {
+    font-size: 3.5rem;
+    padding: 0px !important;
+    text-shadow: 1px 1px 1px black;
+  }
+  .helloContact {
+    font-size: 4.5rem;
+    text-shadow: 3px 1px 1px black;
+  }
+  .imgHeight {
+    height: 30vh !important;
+  }
+  /*HEADER AND NAV ----------------------------------------*/
+  .headerMargin {
+    margin-top: 60px;
+  }
+  .aboutmeHead{
+    font-size: 2rem;
+  }
+  .aboutme{
+    font-size: 1.5rem;
+  }
+  .descriptionHeader{
+  font-size: 2.5rem !important;
+  }
+  .descriptionWork{
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+  }
+}
+/*MOBILE LARGE ------------------------------------------------------*/
+@media only screen and (max-width: 425px) {
+  /*CONTACT ME -------------------------------------------------*/
+  .videoContact {
+    position: absolute;
+    width: 100%;
+    height: 120vh !important;
+    object-fit: cover;
+    z-index: -1;
+  }
+  .descriptionContact {
+    font-size: 2rem;
+    padding: 0px !important;
+    text-shadow: 1px 1px 1px black;
+  }
+  .helloContact {
+    font-size: 3.5rem;
+    text-shadow: 3px 1px 1px black;
+  }
+  .imgHeight {
+    height: 30vh !important;
+  }
+  .resume {
+    font-size: 0.8rem;
+  }
+  .email{
+    margin-top: 2rem;
+    font-size: 1rem;
+  }
+  /*HEADER AND NAV ----------------------------------------*/
+  .headerMargin {
+    margin-top: 60px;
+  }
+  .aboutmeHead{
+    font-size: 2rem;
+  }
+  .aboutme{
+    font-size: 1.5rem;
+  }
+  .descriptionHeader{
+  font-size: 2.5rem !important;
+  }
+  .descriptionWork{
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+  }
+}
+/*IPHONE 6/7/8 PLUS ----------------------- */
+@media only screen and (max-width: 414px) {
+  /*CONTACT ME -------------------------------------------------*/
+  .videoContact {
+    position: absolute;
+    width: 100%;
+    height: 130vh !important;
+    object-fit: cover;
+    z-index: -1;
+  }
+  .descriptionContact {
+    font-size: 2rem;
+    padding: 0px !important;
+    text-shadow: 1px 1px 1px black;
+  }
+  .helloContact {
+    font-size: 3.5rem;
+    text-shadow: 3px 1px 1px black;
+  }
+  .imgHeight {
+    height: 30vh !important;
+  }
+  .resume {
+    font-size: 0.8rem;
+  }
+  .email{
+    margin-top: 2rem;
+    font-size: 1rem;
+  }
+  /*HEADER AND NAV ----------------------------------------*/
+  .headerMargin {
+    margin-top: 0px;
+  }
+  .aboutmeHead{
+    font-size: 2rem;
+  }
+  .aboutme{
+    font-size: 1.5rem;
+  }
+  .descriptionHeader{
+  font-size: 2.5rem !important;
+  }
+  .descriptionWork{
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  /*CONTACT ME -------------------------------------------------*/
+  .videoContact {
+    position: absolute;
+    width: 100%;
+    height: 120vh !important;
+    object-fit: cover;
+    z-index: -1;
+  }
+  .descriptionContact {
+    font-size: 1.5rem;
+    padding: 0px !important;
+    text-shadow: 1px 1px 1px black;
+  }
+  .helloContact {
+    font-size: 2.5rem;
+    text-shadow: 3px 1px 1px black;
+  }
+  .imgHeight {
+    height: 30vh !important;
+  }
+  .resume {
+    font-size: 0.7rem;
+  }
+  .email{
+    margin-top: 2rem;
+    font-size: 1rem;
+  }
+  /*HEADER AND NAV ----------------------------------------*/
+  .headerMargin {
+    margin-top: 60px;
+  }
+  .aboutmeHead{
+    font-size: 2rem;
+  }
+  .hello {
+    font-size: 5rem;
+    text-shadow: 3px 1px 1px white;
+  }
+  .description {
+    font-size: 2rem;
+    text-shadow: 1px 1px 1px white;
+  }
+  .aboutme{
+    font-size: 1.5rem;
+  }
+  .descriptionHeader{
+  font-size: 2.5rem !important;
+  }
+  .descriptionWork{
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+  }
+}
+/*320 PIXEL SIZE SCREENS ---------------------*/
+@media only screen and (max-width: 320px) {
+  /*CONTACT ME -------------------------------------------------*/
+  .videoContact {
+    position: absolute;
+    width: 100%;
+    height: 120vh !important;
+    object-fit: cover;
+    z-index: -1;
+  }
+  .descriptionContact {
+    font-size: 1.5rem;
+    padding: 0px !important;
+    text-shadow: 1px 1px 1px black;
+  }
+  .helloContact {
+    font-size: 2.5rem;
+    text-shadow: 3px 1px 1px black;
+  }
+  .imgHeight {
+    height: 30vh !important;
+  }
+  .resume {
+    font-size: 0.7rem;
+  }
+  .email{
+    margin-top: 2rem;
+    font-size: 1rem;
+  }
+  /*HEADER AND NAV ----------------------------------------*/
+  .headerMargin {
+    margin-top: 60px;
+  }
+  .aboutmeHead{
+    font-size: 2rem;
+  }
+  .hello {
+    font-size: 5rem;
+    text-shadow: 3px 1px 1px white;
+  }
+  .description {
+    font-size: 2rem;
+    text-shadow: 1px 1px 1px white;
+  }
+  .aboutme{
+    font-size: 1.5rem;
+  }
+  .descriptionHeader{
+  font-size: 2.5rem !important;
+  }
+  .descriptionWork{
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+  }
+  .navtext {
+    font-size: 1.5rem !important;
+  }
+}
+
