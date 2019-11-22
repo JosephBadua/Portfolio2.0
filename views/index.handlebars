@@ -5,9 +5,9 @@
    <nav class="black" role="navigation">
     <div class="nav-wrapper container">
        <ul id="nav-mobile" class="right">
-        <li><a href="sass.html" class="white-text">About</a></li>
-        <li><a href="sass.html" class="white-text">Work</a></li>
-        <li><a href="sass.html" class="white-text">Contact</a></li>
+        <li><a href="#AboutMe" class="white-text">About</a></li>
+        <li><a href="#Work" class="white-text">Work</a></li>
+        <li><a href="#ContactDiv" class="white-text">Contact</a></li>
       </ul>
     </div>
   </nav>
@@ -22,14 +22,14 @@
           <h3 class="header col teal-text text-lighten-2 description">I am a <span class="deep-orange-text ligthen-3">Full Stack Developer</span> based in Los Angeles, California.</h3>
         </div>
         <div class="row center">
-          <a href="http://materializecss.com/getting-started.html" id="download-button" class="btn-large waves-effect waves-light teal lighten-1">Download my Resume</a>
+          <a href="http://materializecss.com/getting-started.html" id="download-button" class="btn-large waves-effect waves-light teal lighten-1">View my Work</a>
         </div>
         <br><br>
       </div>
     </div>
   </div>
 
-    <hr class="AboutDivider">
+    <hr class="AboutDivider" id="AboutMe">
     <hr class="AboutDivider1">
     <hr class="AboutDivider2">
 
@@ -39,7 +39,7 @@
       <div class="row smallpadding">
         <div class="col s12 m12">
           <!--My Photo-->
-           <div class="mypicturediv"><img src="/images/picture.jpg" class="responsive-img mypicture circle" alt="Unsplashed background img 2"></div>
+           <div class="mypicturediv"><img src="/images/picture.jpg" class="responsive-img mypicture circle z-depth-4" alt="Unsplashed background img 2"></div>
         </div>
       </div>
       <div class="row">
@@ -54,7 +54,7 @@
         <!--Description 2-->
         <div class="col s12 m4">
           <div class="icon-block">
-            <h2 class="center brown-text"><i class="material-icons">search</i></h2>
+            <h2 class="center brown-text"><i class="material-icons large">search</i></h2>
             <h5 class="center aboutmeHead">Always Learning</h5>
             <p class="light center aboutme">I'm always looking to expand my network, meet new people, hone my skill and learn new one. In a forever evolving industry, I like to stay on top of everything that's happening so I'm always prepared for anything.</p>
           </div>
@@ -62,7 +62,7 @@
         <!--Description 3-->
         <div class="col s12 m4">
           <div class="icon-block">
-            <h2 class="center brown-text"><i class="material-icons">group</i></h2>
+            <h2 class="center brown-text"><i class="material-icons large">group</i></h2>
             <h5 class="center aboutmeHead">Working with Others</h5>
             <p class="light center aboutme">I enjoy working with groups, learning from one another and collaborating together to make our ideas become a reality. I do well alone but I thrive greatly when working with a great team</p>
           </div>
@@ -71,7 +71,7 @@
     </div>
   </div>
   <!--My Work-->
-  <hr class="workDivider">
+  <hr class="workDivider" id="Work">
   <hr class="workDivider1">
   <hr class="workDivider2">
   <div class="container">
@@ -80,175 +80,195 @@
         <div class="col s12 center">
           <h3><i class="mdi-content-send brown-text"></i></h3>
           <h4 class="myWork">My Work</h4>
+          </div>
+      </div>
           <div class="row">
             <div class="col m6 s12">
-              <div class="card small">
+              <div class="card large z-depth-4">
                 <div class="card-image waves-effect waves-block waves-light">
                   <img class="activator" class="responsive-img" src="/images/1stwork.png" alt="Phsychic Game Javascript">
                 </div>
                 <div class="card-content">
-                  <span class="card-title activator cardHeadFont grey-text text-darken-4 center">Psychic Game<i class="material-icons right">arrow_upward</i></span>
+                  <span class="card-title activator cardHeadFont grey-text text-darken-4">Psychic Game<i class="material-icons right">arrow_upward</i></span>
                   <p><a class="linkGit" href="https://github.com/JosephBadua/Psychic-Game">Github Repo</a> <i class="small material-icons">code</i></p>
                 </div>
                 <div class="card-reveal">
-                  <span class="card-title grey-text text-darken-4">Description<i class="material-icons right">close</i></span>
-                  <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                  <span class="card-title grey-text text-darken-4 descriptionHeader">Description<i class="material-icons right">close</i></span>
+                  <p class="descriptionWork">Using <span class="green-text">HTML, CSS, and Javascript</span> this application randomly chooses a letter, which the user will have a set amount of attempts to try and guess. Guessing 
+                  the correct letter will result in the user being given a point and the game resetting. Failing to guess the letter in the attempts given results in a loss and a reset.</p>
                 </div>
               </div>
             </div>
             <div class="col m6 s12">
-               <div class="card small">
+               <div class="card large z-depth-4">
                 <div class="card-image waves-effect waves-block waves-light">
                   <img class="activator" class="responsive-img" src="/images/2stwork.png" alt="Dragon Ball JQuery">
                 </div>
                 <div class="card-content">
-                  <span class="card-title activator cardHeadFont grey-text text-darken-4">Card Title<i class="material-icons right">arrow_upward</i></span>
+                  <span class="card-title activator cardHeadFont grey-text text-darken-4">JQuery DragonBall Game<i class="material-icons right">arrow_upward</i></span>
                   <p><a class="linkGit" href="https://github.com/JosephBadua/unit-4-game">Github Repo</a><i class="small material-icons">code</i></p>
                 </div>
                 <div class="card-reveal">
-                  <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
-                  <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                  <span class="card-title grey-text text-darken-4 descriptionHeader">Description<i class="material-icons right">close</i></span>
+                  <p class="descriptionWork">Using <span class="green-text">HTML, CSS, and JQuery</span> this application randomly chooses a number, which is displayed on the left side of the screen. Each ball has a hidden number which,
+                  when clicked, will add to the user's total in the right side. Guessing the correct number exactly will result in a point and a game reset. Going over the number will result in a loss and a reset.</p>
+                </div>
                 </div>
               </div>
             </div>
-          </div>
            <div class="row">
-            <div class="col m4 s12">
-              <div class="card small">
+            <div class="col m6 s12">
+              <div class="card large z-depth-4">
                 <div class="card-image waves-effect waves-block waves-light">
                   <img class="activator" class="responsive-img" src="/images/3rdwork.png" alt="Trivia Game JQuery">
                 </div>
                 <div class="card-content">
-                  <span class="card-title activator cardHeadFont grey-text text-darken-4">Card Title<i class="material-icons right">arrow_upward</i></span>
+                  <span class="card-title activator cardHeadFont grey-text text-darken-4">Trivia Game<i class="material-icons right">arrow_upward</i></span>
                   <p><a class="linkGit" href="https://github.com/JosephBadua/TriviaGame">Github Repo</a><i class="small material-icons">code</i></p>
                 </div>
                 <div class="card-reveal">
-                  <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
-                  <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                  <span class="card-title grey-text text-darken-4 descriptionHeader">Description<i class="material-icons right">close</i></span>
+                 <p class="descriptionWork">Using <span class="green-text">HTML, CSS, and JQuery</span> this application features trivia for multiple categories. Each cateogry has a set amount of timed questions, 
+                 and the user's correct and wrong answers will be recorded and shown at the end before resetting to the category selection screen.</p>
+                </div>
                 </div>
               </div>
-            </div>
-              <div class="col m4 s12">
-            <div class="card small">
+                <div class="col m6 s12">
+            <div class="card large z-depth-4">
                 <div class="card-image waves-effect waves-block waves-light">
                   <img class="activator" class="responsive-img" src="/images/4thwork.png" alt="Giftastic APIs and JQuery">
                 </div>
                 <div class="card-content">
-                  <span class="card-title activator cardHeadFont grey-text text-darken-4">Card Title<i class="material-icons right">arrow_upward</i></span>
+                  <span class="card-title activator cardHeadFont grey-text text-darken-4">Giftastic<i class="material-icons right">arrow_upward</i></span>
                   <p><a class="linkGit" href="https://github.com/JosephBadua/giftastic">Github Repo</a><i class="small material-icons">code</i></p>
                 </div>
                 <div class="card-reveal">
-                  <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
-                  <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                  <span class="card-title grey-text text-darken-4 descriptionHeader">Description<i class="material-icons right">close</i></span>
+                   <p class="descriptionWork">Using <span class="green-text">HTML, CSS, JQuery, and API's</span> this application allows the user to view and save gifs found through Giphy's API and store it in their local storage.
+                   The gifs can be played and paused by clicking on it and the user can view up to 10 random gifs per search for a specific topic.</p>
                 </div>
               </div>
             </div>
-              <div class="col m4 s12">
-               <div class="card small">
+            </div>
+           <div class="row">
+             <div class="col m6 s12">
+               <div class="card large z-depth-4">
                 <div class="card-image waves-effect waves-block waves-light">
                   <img class="activator" class="responsive-img" src="/images/5thwork.png" alt="Firebase and Moment.js Train Scheduler">
                 </div>
                 <div class="card-content">
-                  <span class="card-title activator cardHeadFont grey-text text-darken-4">Card Title<i class="material-icons right">arrow_upward</i></span>
+                  <span class="card-title activator cardHeadFont grey-text text-darken-4">ChooChoo<i class="material-icons right">arrow_upward</i></span>
                   <p><a class="linkGit" href="https://github.com/JosephBadua/ChooChoo">Github Repo</a><i class="small material-icons">code</i></p>
                 </div>
                 <div class="card-reveal">
-                  <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
-                  <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                  <span class="card-title grey-text text-darken-4 descriptionHeader">Description<i class="material-icons right">close</i></span>
+                   <p class="descriptionWork">Using <span class="green-text">HTML, Bootstrap, CSS, JQuery, Moment.js, and Firebase</span> this application utilizes the Moment.js plugin and Google Firebase's realtime database to store
+                   and display user inputs for information of a train. The time they inputted will be stored in Firebase and Moment.js will display the train's next arrival time. </p>
                 </div>
               </div>
             </div>
-          </div>
-           <div class="row">
-             <div class="col m4 s12">
-              <div class="card small">
+             <div class="col m6 s12">
+              <div class="card large z-depth-4">
                 <div class="card-image waves-effect waves-block waves-light">
                   <img class="activator" class="responsive-img" src="/images/6thwork.png" alt="Liribot Node Command Line Interface">
                 </div>
                 <div class="card-content">
-                  <span class="card-title activator cardHeadFont grey-text text-darken-4">Card Title<i class="material-icons right">arrow_upward</i></span>
+                  <span class="card-title activator cardHeadFont grey-text text-darken-4">Liribot Node CLI<i class="material-icons right">arrow_upward</i></span>
                  <p><a class="linkGit" href="https://github.com/JosephBadua/LiriBot">Github Repo</a><i class="small material-icons">code</i></p>
                 </div>
                 <div class="card-reveal">
-                  <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
-                  <p>Here is some more information about this product that is only revealed once clicked on.</p>
-                </div>
-              </div>
-            </div>
-              <div class="col m4 s12">
-            <div class="card small">
-                <div class="card-image waves-effect waves-block waves-light">
-                  <img class="activator" class="responsive-img" src="/images/7thwork.png" alt="Inquirer Node MySql Bamazon">
-                </div>
-                <div class="card-content">
-                  <span class="card-title activator cardHeadFont grey-text text-darken-4">Card Title<i class="material-icons right">arrow_upward</i></span>
-                  <p><a class="linkGit" href="https://github.com/JosephBadua/bamazon">Github Repo</a><i class="small material-icons">code</i></p>
-                </div>
-                <div class="card-reveal">
-                  <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
-                  <p>Here is some more information about this product that is only revealed once clicked on.</p>
-                </div>
-              </div>
-            </div>
-             <div class="col m4 s12">
-               <div class="card small">
-                <div class="card-image waves-effect waves-block waves-light">
-                  <img class="activator" class="responsive-img" src="/images/8thwork.png" alt="Friend Finder Heroku Mysql Node Express">
-                </div>
-                <div class="card-content">
-                  <span class="card-title activator cardHeadFont grey-text text-darken-4">Card Title<i class="material-icons right">arrow_upward</i></span>
-                  <p><a class="linkGit" href="https://github.com/JosephBadua/FriendFinder">Github Repo</a><i class="small material-icons">code</i></p>
-                </div>
-                <div class="card-reveal">
-                  <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
-                  <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                  <span class="card-title grey-text text-darken-4 descriptionHeader">Description<i class="material-icons right">close</i></span>
+                   <p class="descriptionWork">Using <span class="green-text">Javascript, Moment.js, APIs, and Node</span> this application demonstrates use of the Node CLI. Running the test command followed by a 
+                   second parameter will pull certain data from different API's then display it on the console to the user.</p>
                 </div>
               </div>
             </div>
           </div>
             <div class="row">
-             <div class="col m4 s12">
-              <div class="card small">
+                <div class="col m6 s12">
+            <div class="card large z-depth-4">
+                <div class="card-image waves-effect waves-block waves-light">
+                  <img class="activator" class="responsive-img" src="/images/7thwork.png" alt="Inquirer Node MySql Bamazon">
+                </div>
+                <div class="card-content">
+                  <span class="card-title activator cardHeadFont grey-text text-darken-4">Node Amazon<i class="material-icons right">arrow_upward</i></span>
+                  <p><a class="linkGit" href="https://github.com/JosephBadua/bamazon">Github Repo</a><i class="small material-icons">code</i></p>
+                </div>
+                <div class="card-reveal">
+                  <span class="card-title grey-text text-darken-4 descriptionHeader">Description<i class="material-icons right">close</i></span>
+                 <p class="descriptionWork">Using <span class="green-text">Javascript, MySQL, Inquirer, and Node</span> this application uses Inquirer upon running the test command which allows the user to interact with its
+                 respective database in multiple ways. The databse houses products with its prices and categories, and the user can purchase products, restock, and view certain products based on the queries.</p>
+                </div>
+              </div>
+            </div>
+             <div class="col m6 s12">
+               <div class="card large z-depth-4">
+                <div class="card-image waves-effect waves-block waves-light">
+                  <img class="activator" class="responsive-img" src="/images/8thwork.png" alt="Friend Finder Heroku Mysql Node Express">
+                </div>
+                <div class="card-content">
+                  <span class="card-title activator cardHeadFont grey-text text-darken-4">Friend Finder<i class="material-icons right">arrow_upward</i></span>
+                  <p><a class="linkGit" href="https://github.com/JosephBadua/FriendFinder">Github Repo</a><i class="small material-icons">code</i></p>
+                </div>
+                <div class="card-reveal">
+                  <span class="card-title grey-text text-darken-4 descriptionHeader">Description<i class="material-icons right">close</i></span>
+                  <p class="descriptionWork">Using <span class="green-text">HTML, CSS, Bootstrap, JQuery, Node, Express, MySQL and Heroku</span> this application contains a survey that will record certain values based on the user's inputs.
+                  Upon validating the form, the values are added up and compared with past user's answers to find the closest match or friend. The closest match is displayed with their name and picture through a modal and the user's inputs are recorded
+                  for the future users. The app is deployed on Heroku with a plugin JawsDB database.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+               <div class="col m6 s12">
+              <div class="card large z-depth-4">
                 <div class="card-image waves-effect waves-block waves-light">
                   <img class="activator" class="responsive-img" src="/images/9thwork.png" alt="Mysql Heroku Handlebars Express">
                 </div>
                 <div class="card-content">
-                  <span class="card-title activator cardHeadFont grey-text text-darken-4">Card Title<i class="material-icons right">arrow_upward</i></span>
+                  <span class="card-title activator cardHeadFont grey-text text-darken-4">Burger Database<i class="material-icons right">arrow_upward</i></span>
                  <p><a class="linkGit" href="https://github.com/JosephBadua/burger">Github Repo</a><i class="small material-icons">code</i></p>
                 </div>
                 <div class="card-reveal">
-                  <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
-                  <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                  <span class="card-title grey-text text-darken-4 descriptionHeader">Description<i class="material-icons right">close</i></span>
+                  <p class="descriptionWork">Using <span class="green-text">Javascript, Node, Express, Bootstrap, Handlebars, MySQL and Heroku</span> this application contains a databse of Burgers with default false value on the "devoured" field. When the page is rendered through
+                  handlebars, the database entries appear depending on the "devoured" value. A button that changes the "devoured" from false to true will redirect the user to the same page but with the updated entries. User can also use an input field to  place a new burger
+                  which will redirect to the same page but with the new entry. The app is deployed on Heroku with a plugin JawsDB database.</p>
                 </div>
               </div>
             </div>
-              <div class="col m4 s12">
-            <div class="card small">
+              <div class="col m6 s12">
+            <div class="card large z-depth-4">
                 <div class="card-image waves-effect waves-block waves-light">
                   <img class="activator" class="responsive-img" src="/images/10thwork.png" alt="Project 1 API Firebase Bootstrap">
                 </div>
                 <div class="card-content">
-                  <span class="card-title activator cardHeadFont grey-text text-darken-4">Card Title<i class="material-icons right">arrow_upward</i></span>
+                  <span class="card-title activator cardHeadFont grey-text text-darken-4">Market View<i class="material-icons right">arrow_upward</i></span>
                   <p><a class="linkGit" href="https://github.com/barrd001/Market-View">Github Repo</a><i class="small material-icons">code</i></p>
                 </div>
                 <div class="card-reveal">
-                  <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
-                  <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                  <span class="card-title grey-text text-darken-4 descriptionHeader">Description<i class="material-icons right">close</i></span>
+                  <p class="descriptionWork">Using <span class="green-text">HTML, CSS, Bootstrap, APIs, and Firebase</span> this application was a group project where I worked primarly on the back-end. I routed the APIs to give the user relevant news
+                  to whichever stock ticker they input. I also worked with the Firebase login authentication so that certain elements will only show once a user has logged in. When a user signs up, a token is stored in Firebase so they can log in thereafter.</p>
                 </div>
               </div>
             </div>
-             <div class="col m4 s12">
-               <div class="card small">
+          </div>
+          <div class="row">
+              <div class="col m6 s12">
+               <div class="card large z-depth-4">
                 <div class="card-image waves-effect waves-block waves-light">
                   <img class="activator" class="responsive-img" src="/images/11thwork.png" alt="Sequelize MYSQL Heroku Handlebars Bootstrap Node Express">
                 </div>
                 <div class="card-content">
-                  <span class="card-title activator cardHeadFont grey-text text-darken-4">Card Title<i class="material-icons right">arrow_upward</i></span>
+                  <span class="card-title activator cardHeadFont grey-text text-darken-4">Spot On<i class="material-icons right">arrow_upward</i></span>
                   <p><a class="linkGit" href="https://github.com/mjjohnston55/Project2">Github Repo</a><i class="small material-icons">code</i></p>
                 </div>
                 <div class="card-reveal">
-                  <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
-                  <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                  <span class="card-title grey-text text-darken-4 descriptionHeader">Description<i class="material-icons right">close</i></span>
+                  <p class="descriptionWork">Using <span class="green-text">HTML, CSS, Bootstrap, JQuery, Node, Express, Handlebars, MySQL, Sequelize and Heroku</span> this application was a group project where I worked primarly on the back-end.
+                  I worked on connecting our MySQL database using Sequelize to generate entries through forms, and displaying that data to the front-end through handlebars. The app is designed for pet owners who have lost animals or found stray animals, using the application
+                  to report the animals with a picture and contact info. Users can have their searches filter using a form which acts as a query for our database.</p>
                 </div>
               </div>
             </div>
@@ -259,15 +279,28 @@
   </div>
 
   <!--Contact Me-->
-  <div class="parallax-container valign-wrapper">
+  <video autoplay loop muted src="/images/backgroundvideo2.mp4" type="video/mp4" class="responsive-video videoContact" alt="Unsplashed background img 1"></video>
+  <div class="container" id="ContactDiv">
+   <div class="row">
     <div class="section no-pad-bot">
-      <div class="container">
+      <div class="container headerMargin paddingHeader contactMe">
+        <h1 class="header center teal-text text-lighten-2 hello">I'd <span class="red-text">love</span> to meet and chat with you!</span></h1>
+        <hr id="divider">
         <div class="row center">
-          <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
+          <h3 class="header col teal-text text-lighten-2 description"><span class="red-text">Download my resume</span> or <span class="red-text">email me directly.</span> Can't wait to see you!</h3>
         </div>
+        <div class="row center">
+          <div class="col m6 s12">
+            <a href="/images/JosephBaduaReume.pdf" id="download-button" class="btn-large waves-effect waves-light teal lighten-1" download="JosephResume">Download my Resume!</a>
+          </div>
+          <div class="col m6 s12">
+            <a href="mailto:josephbadua1006@gmail.com" id="download-button" class="btn-large waves-effect waves-light teal lighten-1">Email Me!</a>
+          </div>
+        </div>
+        <br><br>
       </div>
     </div>
-    <div class="parallax"><img src="/images/background3.jpg" class="responsive-img" alt="Unsplashed background img 3"></div>
+   </div>
   </div>
 
   <!--Footer-->
@@ -275,14 +308,11 @@
       <div class="footer-copyright">
       <div class="container">
       <div class="row">
-        <div class="col s12 m4 center">
-          <a class="blue-text text-lighten-3" href="http://materializecss.com">LinkedIn</a>
+        <div class="col s12 m6 center">
+          <a class="blue-text text-lighten-3 big" href="https://www.linkedin.com/in/joseph-badua-60aaa7188/">LinkedIn</a>
         </div>
-        <div class="col s12 m4 center">
-          Joseph Badua 2019 
-        </div>
-        <div class="col s12 m4 center">
-           <a class="black-text text-lighten-3" href="http://materializecss.com">Github</a>
+        <div class="col s12 m6 center">
+           <a class="black-text text-lighten-3 big" href="https://github.com/JosephBadua">Github</a>
         </div>
       </div>
       </div>
