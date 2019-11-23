@@ -15,7 +15,6 @@
  p {
    line-height: 2rem;
  }
- 
  .sidenav-trigger {
    color: #26a69a;
  }
@@ -187,6 +186,21 @@
   margin-top: 160px;
   margin-bottom: 100px;
 }
+.slide{
+	        animation: slide-in-elliptic-top-fwd 0.7s 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+@keyframes slide-in-elliptic-top-fwd {
+  0% {
+    transform: translateY(-600px) rotateX(-30deg) scale(0);
+    transform-origin: 50% 100%;
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0) rotateX(0) scale(1);
+    transform-origin: 50% 1400px;
+    opacity: 1;
+  }
+}
 /*LAPTOP SCREEN */
 @media only screen and (max-width: 1440px) {
   /*CONTACT ME -------------------------------------------------*/
@@ -238,6 +252,12 @@
   .helloContact {
     font-size: 4.5rem;
     text-shadow: 3px 1px 1px black;
+  }
+  .aboutmeHead{
+    font-size: 2.5rem !important;
+  }
+  .aboutme{
+    font-size: 1.5rem;
   }
   .cardHeadFont {
     font-size: 3.5rem !important;
@@ -307,7 +327,7 @@
   }
   /*HEADER AND NAV ----------------------------------------*/
   .headerMargin {
-    margin-top: 60px;
+    margin-top: 40px;
   }
   .aboutmeHead{
     font-size: 2rem;
@@ -354,7 +374,7 @@
   }
   /*HEADER AND NAV ----------------------------------------*/
   .headerMargin {
-    margin-top: 60px;
+    margin-top: 50px;
   }
   .aboutmeHead{
     font-size: 2rem;
