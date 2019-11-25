@@ -421,7 +421,7 @@
   }
   /*HEADER AND NAV ----------------------------------------*/
   .headerMargin {
-    margin-top: 0px;
+    margin-top: 65px;
   }
   .aboutmeHead{
     font-size: 2rem;
@@ -436,6 +436,14 @@
     font-size: 1.5rem;
     line-height: 2.5rem;
   }
+  .hello {
+    font-size: 4rem;
+    text-shadow: 3px 1px 1px white;
+  }
+  .description {
+    font-size: 2rem;
+    text-shadow: 1px 1px 1px white;
+  }
 }
 
 @media only screen and (max-width: 375px) {
@@ -443,7 +451,7 @@
   .videoContact {
     position: absolute;
     width: 100%;
-    height: 120vh !important;
+    height: 130vh !important;
     object-fit: cover;
     z-index: -1;
   }
@@ -468,7 +476,7 @@
   }
   /*HEADER AND NAV ----------------------------------------*/
   .headerMargin {
-    margin-top: 60px;
+    margin-top: 30px;
   }
   .aboutmeHead{
     font-size: 2rem;
@@ -498,7 +506,7 @@
   .videoContact {
     position: absolute;
     width: 100%;
-    height: 120vh !important;
+    height: 160vh !important;
     object-fit: cover;
     z-index: -1;
   }
@@ -523,17 +531,17 @@
   }
   /*HEADER AND NAV ----------------------------------------*/
   .headerMargin {
-    margin-top: 60px;
+    margin-top: 10px;
   }
   .aboutmeHead{
     font-size: 2rem;
   }
   .hello {
-    font-size: 5rem;
+    font-size: 3rem;
     text-shadow: 3px 1px 1px white;
   }
   .description {
-    font-size: 2rem;
+    font-size: 1.5rem;
     text-shadow: 1px 1px 1px white;
   }
   .aboutme{
